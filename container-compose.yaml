@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  redis-stack:
+    container_name: redis-stack
+    image: 'redis/redis-stack:latest'
+    ports:
+      - '6379:6379'
