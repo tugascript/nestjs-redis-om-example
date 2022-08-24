@@ -12,8 +12,8 @@ import { sign } from 'jsonwebtoken';
 import { Repository } from 'redis-om';
 import { IJwt } from '../config/interfaces/jwt.interface';
 import { RedisClientService } from '../redis-client/redis-client.service';
-import { LoginDto } from './dtos/login.dto';
-import { RegisterDto } from './dtos/register.dto';
+import { LoginDto } from './dto/login.dto';
+import { RegisterDto } from './dto/register.dto';
 import { User, userSchema } from './entities/user.entity';
 
 @Injectable()
